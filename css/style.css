@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1em;
+  font-family: "Poppins", "sans-serif";
+  background: rgb(209,151,237);
+  background: linear-gradient(90deg, rgba(209,151,237,1) 0%, rgba(162,36,149,1) 59%, rgba(135,74,186,1) 100%);
+}
+
+/* Layout Início */
+.area-cabecalho {
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  background-color: #050911;
+}
+
+.area-logo,
+.area-menu {
+  padding: 10px;
+}
+
+.area-principal {
+  width: 920px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.area-postagens {
+  float: left;
+  width: 720px;
+}
+
+.postagem {
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.postagem img {
+  width: 680px;
+  align-items: center;
+}
+
+/* Área Lateral Início */
+.area-lateral {
+  width: 180px;
+  float: right;
+  background: #fff;
+  margin-bottom: 10px;
+}
+
+.conteudo-lateral {
+  background: #fff;
+  padding: 10px;
+}
+
+.postagem-lateral {
+  font-size: 0.8em;
+  padding: 5px;
+}
+
+.lista-lateral {
+  list-style: none;
+  font-size: 15px;
+}
+
+i {
+  margin-left: 10px;
+  margin-right: 15px;
+}
+/* Área Lateral Fim */
+
+.rodape {
+  clear: both;
+  padding: 15px;
+  background: #fff;
+  text-align: center;
+}
+/* Layout Fim */
+
+/* Formatação do Menu Início */
+a:link,
+a:visited {
+  color: darkblue;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #b620a9;
+}
+
+.area-cabecalho a:link,
+.area-cabecalho a:visited {
+  color: #fff;
+  padding: 8px 12px;
+  text-decoration: none;
+}
+
+.area-cabecalho a:hover {
+  color: #b620a9;
+  background: #0c1629;
+}
+/* Formatação do Menu Fim */
+
+/* Formatações Padrão Início */
+h1 {
+  color: #858484;
+  font-size: 2.5em;
+}
+
+h2 {
+  color: #16140d;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  background: #b620a9;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.purple {
+  color: #b620a9;
+}
+
+.sub {
+  color: #fff;
+}
+
+.data-postagem {
+  display: block;
+  font-size: 0.8em;
+  border-bottom: 1px solid #ebebeb;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+/* Formatações Padrão Fim */
