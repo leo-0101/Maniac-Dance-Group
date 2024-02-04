@@ -41,6 +41,7 @@ body {
   margin-bottom: 20px;
   background: #fff;
   border-radius: 8px;
+  text-align: justify;
 }
 
 .postagem img {
@@ -156,11 +157,37 @@ h3 {
 /* Formatações Padrão Fim */
 
 /* Página Membros Início */
-.postagem-membros img {
+.area-postagens-membros {
+  width: 650px;
+}
+
+.area-lateral-membros {
+  width: 250px;
+  float: right;
+  background: #fff;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.postagem-membros-right img {
+  margin-left: 10px;
   float: right;
   width: 40%;
   height: 350px;
-  border-radius: 8px;
+  border-radius: 15px;
+}
+
+.postagem-membros-left img {
+  margin-right: 10px;
+  float: left;
+  width: 40%;
+  height: 350px;
+  border-radius: 15px;
+}
+
+.curiosidades {
+  padding-left: 10px;
 }
 
 .clear {
