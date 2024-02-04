@@ -1,2 +1,1 @@
-# IsaBlog
- Página do grupo de dança Maniac
+Página do grupo de dança Maniac
