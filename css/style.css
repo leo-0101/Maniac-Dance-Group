@@ -170,24 +170,42 @@ h3 {
   overflow: hidden;
 }
 
+.area-lateral-membros-nobg {
+  width: 250px;
+  float: right;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.third-title {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  background: #b620a9;
+  padding: 5px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+
 .postagem-membros-right img {
   margin-left: 10px;
   float: right;
   width: 40%;
-  height: 350px;
-  border-radius: 15px;
+  height: 250px;
+  /* border-radius: 15px; */
 }
 
 .postagem-membros-left img {
   margin-right: 10px;
+  margin-bottom: 5px;
   float: left;
   width: 40%;
-  height: 350px;
-  border-radius: 15px;
+  height: 250px;
+  /* border-radius: 15px; */
 }
 
 .curiosidades {
-  padding-left: 10px;
+  font-size: 13px;
 }
 
 .clear {
