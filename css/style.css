@@ -177,6 +177,21 @@ h3 {
   overflow: hidden;
 }
 
+.mini-membros {
+  display: flex;
+  align-items: center;
+}
+
+.mini-membros img {
+  max-width: 25%;
+  border-radius: 8px;
+}
+
+.mini-membros p {
+  font-size: 15px;
+  padding-left: 18px;
+}
+
 .third-title {
   display: flex;
   justify-content: center;
